@@ -1,10 +1,10 @@
 ﻿# Rain-World-Interactive-Map
 A Rain World interactive map using leaflet and GeoJSON data exported from the game files.
 
-[(Link to the map page)](https://henpemaz.github.io/Rain-World-Interactive-Map/index.html)
+[(Link to the map page)](https://vlad269139.github.io/Rain-World-Interactive-Map/index.html)
 
 This project consists of three parts:
-- A c# mod to jump through the game generating screenshots and exporting metadata about rooms and regions and maps. This part is hosted in my [rainworld mods repo](https://github.com/henpemaz/PartModPartMeme) under "MapExporter". Supports modded regions.
+- A c# mod to jump through the game generating screenshots and exporting metadata about rooms and regions and maps. This part is hosted in henpemaz's [rainworld mods repo](https://github.com/henpemaz/PartModPartMeme) under "MapExporter". Supports modded regions.
 - A python script for stitching up the screenshots into a map, producing a tileset/basemap and converting the metadata into geojson features.
 - The front-end app in plain html css and javascript using Leaflet for the map, all static files so it can be hosted in a github site.
 
